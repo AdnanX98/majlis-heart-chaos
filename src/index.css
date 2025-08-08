@@ -8,89 +8,89 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Romantic Pastel Theme */
+    --background: 20 60% 98%;
+    --foreground: 340 40% 14%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 340 40% 14%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 340 40% 14%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 340 75% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 20 65% 94%;
+    --secondary-foreground: 340 40% 18%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 340 25% 95%;
+    --muted-foreground: 340 20% 40%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 330 80% 90%;
+    --accent-foreground: 340 45% 22%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 340 30% 88%;
+    --input: 340 30% 88%;
+    --ring: 340 70% 40%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
+    /* Sidebar tints */
+    --sidebar-background: 20 55% 97%;
+    --sidebar-foreground: 340 40% 24%;
+    --sidebar-primary: 340 75% 55%;
     --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 330 80% 94%;
+    --sidebar-accent-foreground: 340 40% 22%;
+    --sidebar-border: 340 30% 88%;
+    --sidebar-ring: 340 70% 40%;
 
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Lovely extras */
+    --love-glow: 340 75% 60%;
+    --gradient-love: linear-gradient(135deg, hsl(var(--primary) / 0.95), hsl(340 85% 65% / 0.95));
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 340 16% 10%;
+    --foreground: 0 0% 98%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 340 18% 12%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 340 18% 12%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 340 75% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 340 18% 16%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 340 16% 18%;
+    --muted-foreground: 0 0% 80%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 340 22% 20%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --border: 340 16% 22%;
+    --input: 340 16% 22%;
+    --ring: 340 70% 50%;
+
+    --sidebar-background: 340 18% 12%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 340 75% 60%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 340 22% 20%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 340 16% 22%;
+    --sidebar-ring: 340 70% 50%;
   }
 }
 
@@ -102,4 +102,25 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@layer components {
+  .love-gradient {
+    background-image: var(--gradient-love);
+  }
+  .btn-heart {
+    @apply inline-flex items-center justify-center font-semibold text-sm text-primary-foreground px-5 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
+    background-image: var(--gradient-love);
+    border-radius: 9999px;
+    box-shadow: 0 10px 30px -10px hsl(var(--love-glow) / 0.5);
+    transition: transform 0.15s ease, box-shadow 0.3s ease;
+  }
+  .btn-heart:hover { transform: translateY(-1px); }
+  .btn-heart:active { transform: translateY(0); }
+
+  .story-link { position: relative; display: inline-block; }
+  .story-link::after {
+    content: ""; position: absolute; left: 0; bottom: -2px; height: 2px; width: 100%; background: hsl(var(--primary)); transform: scaleX(0); transform-origin: right; transition: transform .3s ease;
+  }
+  .story-link:hover::after { transform: scaleX(1); transform-origin: left; }
 }
